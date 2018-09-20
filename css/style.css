@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	border:2px solid #d3d4d5;
+	margin: -1px 20px 20px 20px;
+}
+.clearfix{
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+.header{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+.wrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+.bg-color{
+	background-color: #fff;
+	min-height: 70px;
+	margin-top: 15px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin-top: 10px;
+}
+.menu_bar{
+	width: 70%;
+	float: right;
+	margin-top: 28px
+}
+.menu_bar ul{
+	list-style: none;
+}
+.menu_bar ul li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+.menu_bar ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+.t_bg{
+	width:22%;
+	position: absolute;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: -345px;
+}
+.t_bg h2, h3{
+	font-size: 25px;
+	text-transform: uppercase;
+	color:#bcb2b2;
+	padding: 18px 0px 0px 30px;
+	font-weight: normal;
+}
+.t_bg h3{
+	padding: 10px 0px 0px 30px;
+}
+.t_bg p{
+	font-style: 16px;
+	color:#bcb2b2;
+	padding: 5px 0px 0px 30px;
+	font-weight: normal;
+
+}
+.t_bg button{
+background-color: rgba(0, 0, 0, 0.7);
+padding: 10px 35px;
+border: none;
+border-radius: 5px;
+color: #aba3a3;
+margin:30px 0px 40px 30px;
+}
+.wrapper_1{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.serviece .service_1{
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+	margin-top: 80px;
+}
+.serviece .service_1 h2{
+	text-align: center;
+	color: #534b4b;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: capitalize
+}
+.serviece .service_1 img{
+	width: 250px;
+	height: auto;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 25px
+}
+.serviece .service_1 p{
+	text-align: center;
+	color: #332d2d;
+	font-size: 15px;
+	line-height: 25px
+}
+.serviece .service_1 button{
+    margin-left: 135px;
+    padding: 5px 20px;
+    border: 0;
+    background: #405A7B;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.wrapper-3{
+	width: 95%;
+	margin:0 auto;
+	float: left;
+}
+.copyright{
+	margin-top: 80px;
+}
+.footer .copyright p{
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	color:#040315;
+	padding: 5px;
+}
+
+.footer .social_icon{
+	width: 95%;
+	margin:0 auto;
+	margin-bottom: 40px;
+}
+.footer .social_icon ul{
+	list-style: none;
+	text-align: center
+}
+.footer .social_icon ul li{
+	display: inline-block;
+	    margin: 10px 5px;
+}
+.footer .social_icon ul li a{
+	text-decoration: none;
+}
+.fa-facebook{
+	font-size: 40px;
+	color:#4B68A4;
+}
+.fa-twitter-square{
+	font-size: 40px;
+	color:#22A3DC;
+}
+.fa-google-plus-square{
+	font-size: 40px;
+	color:#D44937;
+}
+
+.fa-rss-square{
+	font-size: 40px;
+	color:#D44937;
+}
+
